@@ -244,5 +244,6 @@ main {
 }
 
 .link-text {
+  font-family: "Noto Sans JP", sans-serif;
   margin: 5px 0 0 0;
 }
