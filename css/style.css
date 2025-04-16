@@ -4,6 +4,7 @@ html {
 }
 
 body {
+   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   color: #333;
 }
@@ -12,9 +13,6 @@ main {
   padding-top: 90px;
 }
 
-/*===============================
-#about
-================================*/
 .about-inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -92,7 +90,6 @@ main {
   top: 80px;
   left: 0;
   padding: 0;
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 40px;
   color: #fff;
   font-weight: bold;
