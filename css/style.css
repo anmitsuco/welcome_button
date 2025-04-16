@@ -4,19 +4,15 @@ html {
 }
 
 body {
-   font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   color: #333;
-}
-
-main {
-  padding-top: 90px;
 }
 
 .about-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 40px 60px;
+  padding: 40px 40px 20px 40px;
 }
 
 .mousikomi-container {
@@ -189,10 +185,16 @@ main {
           justify-content: center;
   position: relative;
   padding-top: 20px;
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .mousikomi_link {
-  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
   font-weight: 700;
   color: red;
   background: #fff;
@@ -210,16 +212,4 @@ main {
 }
 .mousikomi_link:hover {
   opacity: 0.6;
-}
-
-.link-container {
-  width: 240px;
-  max-width: 100%;
-  margin: 16px auto 0;
-}
-
-.link-text {
-  font-size: 14px;
-  margin-top: 0;
-  margin-bottom: 5px;
 }
