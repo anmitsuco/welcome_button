@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const containerHeight = container.offsetHeight;
       window.scrollBy({
-        top: containerHeight - 80,
+        top: containerHeight - 100,
         behavior: "smooth"
       });
     }
